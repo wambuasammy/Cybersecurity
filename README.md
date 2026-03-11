@@ -81,3 +81,26 @@ This repository serves as:
 ## Status
 
 This repository is continuously updated as new topics are studied and labs are completed.Branch testing for Git lab
+
+---
+
+## Labs
+
+This repository contains hands-on labs covering Linux systems, Git workflows, and cybersecurity fundamentals.
+
+### Linux Labs
+
+| Lab | Description |
+|----|----|
+| [Linux File Permissions](linux/labs/lab1-file-permissions/lab.md) | Understanding Linux permission models using `chmod` |
+
+---
+
+### Git Labs
+
+| Lab | Description |
+|----|----|
+| [Push Local Repository to GitHub](git/labs/lab1-push-to-github/lab.md) | Initialize a repository and push it to GitHub |
+| [Git Branching Workflow](git/labs/lab2-git-branching/lab.md) | Create, switch, and merge branches |
+
+---
