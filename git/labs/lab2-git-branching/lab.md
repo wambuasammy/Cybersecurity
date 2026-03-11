@@ -3,17 +3,17 @@
 ## Table of Contents
 
 - [Objective](#objective)
-- [Step 1 — Create Lab Structure](#step-1--create-lab-structure)
+- [Step 1 — Create the Lab Structure](#step-1--create-the-lab-structure)
 - [Step 2 — Check Current Branch](#step-2--check-current-branch)
-- [Step 3 — Create Branch](#step-3--create-branch)
-- [Step 4 — Switch Branch](#step-4--switch-branch)
-- [Step 5 — Modify File](#step-5--modify-file)
-- [Step 6 — Verify Change](#step-6--verify-change)
-- [Step 7 — Commit Change](#step-7--commit-change)
-- [Step 8 — Switch Back to Main](#step-8--switch-back-to-main)
-- [Step 9 — Merge Branch](#step-9--merge-branch)
-- [Step 10 — Visualize Commit History](#step-10--visualize-commit-history)
-- [Step 11 — Publish the Lab](#step-11--publish-the-lab)
+- [Step 3 — Create a New Branch](#step-3--create-a-new-branch)
+- [Step 4 — Switch to the Feature Branch](#step-4--switch-to-the-feature-branch)
+- [Step 5 — Modify a File in the Feature Branch](#step-5--modify-a-file-in-the-feature-branch)
+- [Step 6 — Verify the File Modification](#step-6--verify-the-file-modification)
+- [Step 7 — Commit Changes in the Feature Branch](#step-7--commit-changes-in-the-feature-branch)
+- [Step 8 — Switch Back to the Main Branch](#step-8--switch-back-to-the-main-branch)
+- [Step 9 — Merge the Feature Branch](#step-9--merge-the-feature-branch)
+- [Step 10 — Visualize the Commit History](#step-10--visualize-the-commit-history)
+- [Step 11 — Publish the Lab to GitHub](#step-11--publish-the-lab-to-github)
 - [Conclusion](#conclusion)
 
 ---
