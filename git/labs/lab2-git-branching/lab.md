@@ -1,5 +1,23 @@
 # Lab 2 — Git Branching Workflow
 
+## Table of Contents
+
+- [Objective](#objective)
+- [Step 1 — Create Lab Structure](#step-1--create-lab-structure)
+- [Step 2 — Check Current Branch](#step-2--check-current-branch)
+- [Step 3 — Create Branch](#step-3--create-branch)
+- [Step 4 — Switch Branch](#step-4--switch-branch)
+- [Step 5 — Modify File](#step-5--modify-file)
+- [Step 6 — Verify Change](#step-6--verify-change)
+- [Step 7 — Commit Change](#step-7--commit-change)
+- [Step 8 — Switch Back to Main](#step-8--switch-back-to-main)
+- [Step 9 — Merge Branch](#step-9--merge-branch)
+- [Step 10 — Visualize Commit History](#step-10--visualize-commit-history)
+- [Step 11 — Publish the Lab](#step-11--publish-the-lab)
+- [Conclusion](#conclusion)
+
+---
+
 ## Objective
 
 The objective of this lab is to understand how Git branches work and how they can be used to develop features safely without affecting the main branch.
