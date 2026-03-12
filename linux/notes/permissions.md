@@ -1,3 +1,4 @@
+```bash
 # =====================================================
 # LINUX FILE PERMISSIONS — COMPLETE NOTES WITH EXAMPLES
 # =====================================================
@@ -293,3 +294,4 @@ chmod 777 file
 
 # Follow the principle of least privilege:
 # Only grant the permissions required.
+```
