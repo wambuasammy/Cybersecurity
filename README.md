@@ -1,36 +1,30 @@
 # Cybersecurity Learning Repository
 
-This repository documents my journey learning cybersecurity, Linux systems, and security tooling.
+This repository documents my journey learning **cybersecurity, Linux systems, and security tooling**.
 
-The goal of this project is to build a structured knowledge base that combines theoretical understanding, practical labs, and automation scripts.
+The purpose of this project is to build a structured technical knowledge base that combines:
+
+- theoretical understanding
+- hands-on labs
+- documentation of experiments
+- automation scripts
+
+The repository evolves as new topics are studied and practical exercises are completed.
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```
 Cybersecurity
 │
 ├── git
 │   ├── notes
-│   │   └── git_basics.md
-│   │
 │   └── labs
-│       ├── lab1-push-to-github
-│       └── lab2-git-branching
 │
 ├── linux
 │   ├── notes
-│   │   ├── filesystem.md
-│   │   ├── networking.md
-│   │   ├── permissions.md
-│   │   ├── processes.md
-│   │   └── users_groups.md
-│   │
 │   ├── labs
-│   │   ├── lab1-file-permissions
-│   │   └── lab2-users-groups
-│   │
 │   └── tools
 │
 ├── scripts
@@ -39,104 +33,129 @@ Cybersecurity
 └── .gitignore
 ```
 
+The repository is organized into topic-based sections to separate **documentation, labs, and tooling**.
+
 ---
 
-## Sections
+# Sections
 
-### Linux
+## Linux
 
-Contains documentation and labs related to Linux systems.
+The **Linux section** contains documentation and practical labs focused on Linux system fundamentals.
+
+Topics covered include:
+
+- filesystem navigation
+- file permissions and ownership
+- user and group management
+- process management
+- networking fundamentals
+- system monitoring
+
+Documentation is located in:
+
+```
+linux/notes
+```
+
+Hands-on labs are located in:
+
+```
+linux/labs
+```
+
+---
+
+## Git
+
+The **Git section** documents version control workflows used to manage this repository and real-world development environments.
 
 Topics include:
 
-* filesystem navigation
-* permissions and ownership
-* process management
-* networking fundamentals
-* user and group management
+- repository initialization
+- staging and commits
+- branching workflows
+- merging strategies
+- repository maintenance
+
+Documentation:
+
+```
+git/notes
+```
+
+Practical labs:
+
+```
+git/labs
+```
 
 ---
 
-### Git
+## Scripts
 
-Documentation covering Git fundamentals and version control workflows used to manage this repository.
+The **scripts directory** will contain automation tools and small utilities developed during labs and experiments.
 
-Topics include:
+These scripts may include:
 
-* repository initialization
-* commits and version control
-* branching workflows
-* merging and repository maintenance
-
----
-
-### Scripts
-
-This directory will contain automation scripts written during labs and experiments.
-
-Scripts will primarily be written in:
-
-* Bash
-* Python (as the project expands)
+- Bash automation
+- system administration helpers
+- security analysis utilities
+- future Python tooling
 
 ---
 
-## Purpose
+# Learning Approach
+
+This repository follows a **documentation-first learning methodology**.
+
+Each topic is studied using the following structure:
+
+1. **Concept documentation**  
+   Core theory and explanations are written in the `notes` directories.
+
+2. **Hands-on labs**  
+   Practical exercises demonstrate the concepts in real environments.
+
+3. **Command experimentation**  
+   Tools and scripts are developed during experimentation.
+
+This structure ensures that theory and practice remain connected.
+
+---
+
+# Tools Used
+
+Primary tools used in this repository include:
+
+- Kali Linux
+- Git
+- GitHub
+- Bash
+
+Additional tools will be introduced as new topics are explored.
+
+---
+
+# Purpose
 
 This repository serves as:
 
-* a **cybersecurity learning journal**
-* a **technical reference for Linux and Git**
-* a **collection of hands-on security labs**
-* a **documentation portfolio of practical learning**
+- a **cybersecurity learning journal**
+- a **Linux and Git reference guide**
+- a **collection of practical labs**
+- a **technical documentation portfolio**
 
 ---
 
-## Tools Used
+# Status
 
-* Kali Linux
-* Git
-* GitHub
-* Bash
+This repository is actively maintained and will continue expanding as new cybersecurity topics are studied.
 
-Additional tools will be added as the project grows.
+Future areas of exploration may include:
 
----
-
-## Status
-
-This repository is continuously updated as new topics are studied and labs are completed.
-
-Current progress includes:
-
-* Linux fundamentals
-* Linux permissions
-* Linux user and group management
-* Git version control
-* Git branching workflows
-
-Future topics will expand into networking, scripting, and additional cybersecurity concepts.
-
----
-
-## Labs
-
-This repository contains hands-on labs covering Linux systems, Git workflows, and cybersecurity fundamentals.
-
-### Linux Labs
-
-| Lab                                                               | Description                                         |
-| ----------------------------------------------------------------- | --------------------------------------------------- |
-| [Linux File Permissions](linux/labs/lab1-file-permissions/lab.md) | Understanding Linux permission models using `chmod` |
-| [Linux Users and Groups](linux/labs/lab2-users-groups/lab.md)     | Managing users, groups, and authentication files    |
-
----
-
-### Git Labs
-
-| Lab                                                                    | Description                                   |
-| ---------------------------------------------------------------------- | --------------------------------------------- |
-| [Push Local Repository to GitHub](git/labs/lab1-push-to-github/lab.md) | Initialize a repository and push it to GitHub |
-| [Git Branching Workflow](git/labs/lab2-git-branching/lab.md)           | Create, switch, and merge branches            |
-
----
+- networking analysis
+- scripting and automation
+- system hardening
+- penetration testing fundamentals
+- security monitoring tools

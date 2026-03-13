@@ -31,15 +31,16 @@ By the end of this lab, you will be able to:
 - [Objective](#objective)
 - [Step 1 — Start a Background Process](#step-1--start-a-background-process)
 - [Step 2 — View Background Jobs](#step-2--view-background-jobs)
-- [Step 3 — Inspect the Process](#step-3--inspect-the-process)
-- [Step 4 — Monitor Processes with top](#step-4--monitor-processes-with-top)
-- [Step 5 — Monitor Processes with htop](#step-5--monitor-processes-with-htop)
-- [Step 6 — Terminate a Process with kill](#step-6--terminate-a-process-with-kill)
-- [Step 7 — Terminate Processes with killall](#step-7--terminate-processes-with-killall)
-- [Step 8 — Terminate Processes with pkill](#step-8--terminate-processes-with-pkill)
-- [Step 9 — Resume Background Jobs with fg and bg](#step-9--resume-background-jobs-with-fg-and-bg)
-- [Step 10 — Change Process Priority with nice](#step-10--change-process-priority-with-nice)
-- [Step 11 — Modify Process Priority with renice](#step-11--modify-process-priority-with-renice)
+- [Step 3 — Inspect the Running Process](#step-3--inspect-the-running-process)
+- [Step 4 — Terminate the Process](#step-4--terminate-the-process)
+- [Step 5 — Verify Process Termination](#step-5--verify-process-termination)
+- [Step 6 — Monitor Processes with top](#step-6--monitor-processes-with-top)
+- [Step 7 — Monitor Processes with htop](#step-7--monitor-processes-with-htop)
+- [Step 8 — Terminate Processes with killall](#step-8--terminate-processes-with-killall)
+- [Step 9 — Terminate Processes with pkill](#step-9--terminate-processes-with-pkill)
+- [Step 10 — Resume Background Jobs with fg and bg](#step-10--resume-background-jobs-with-fg-and-bg)
+- [Step 11 — Change Process Priority with nice](#step-11--change-process-priority-with-nice)
+- [Step 12 — Modify Process Priority with renice](#step-12--modify-process-priority-with-renice)
 - [Conclusion](#conclusion)
 
 ---
@@ -72,7 +73,7 @@ Where:
 | Value | Meaning |
 |------|------|
 [1] | Job number |
-48381 | Process ID (PID) |
+54858 | Process ID (PID) |
 
 Screenshot:
 
