@@ -1,14 +1,41 @@
 # Linux Security Automation Framework
 
-The **Linux Security Automation Framework** is a modular Bash-based tool designed to automate system enumeration and security auditing on Linux systems.
+A modular Bash-based security auditing tool that automates Linux system enumeration, security checks, and reporting.
 
-The tool combines multiple Linux administration concepts into a single automated framework capable of collecting system information, performing security checks, and generating structured reports.
+The **Linux Security Automation Framework** combines multiple Linux administration concepts into a single automated framework capable of collecting system information, performing security checks, and generating structured reports.
 
 This project demonstrates how Bash scripting can be used to automate common Linux administrative and cybersecurity auditing tasks.
 
 ---
 
-# Features
+## Table of Contents
+
+- Overview
+- Features
+- Quick Start
+- Project Structure
+- Built-in Help Command
+- Running Individual Modules
+- Modules
+- Reports
+- Security Summary
+- Purpose of the Lab
+- Disclaimer
+- Conclusion
+
+---
+
+## Overview
+
+The framework performs automated security inspections on Linux systems by combining multiple enumeration and auditing techniques.
+
+It gathers system information, analyzes users and processes, inspects networking configuration, and performs several security checks to help identify potential risks or misconfigurations.
+
+The tool generates both **human-readable reports** and **CSV reports** for easier analysis.
+
+---
+
+## Features
 
 The framework provides the following capabilities:
 
@@ -23,30 +50,39 @@ The framework provides the following capabilities:
 - scan duration tracking
 - built-in help command
 
-# Quick Start
+Each auditing task is implemented as an independent module, allowing flexible execution of individual scans.
 
-The fastest way to run the Linux Security Automation Framework is to clone the repository and execute the scan.
+---
 
-Run the following commands:
+## Quick Start
+
+Run the following commands to clone the repository and execute the security scan.
 
 ```bash
 git clone https://github.com/wambuasammy/Cybersecurity.git
 cd Cybersecurity/linux/labs/lab5-linux-automation
 chmod +x linux_audit.sh
 ./linux_audit.sh --scan
+```
 
+These commands will:
 
-Locate the Automation Tool
+1. Clone the repository  
+2. Navigate to the automation tool directory  
+3. Make the script executable  
+4. Run a full Linux security audit  
 
-Navigate to the automation lab directory.
+Reports will automatically be generated in the **reports** directory.
 
-cd Cybersecurity/linux/labs/lab5-linux-automation
-
-Main script:
+Main script location:
 
 https://github.com/wambuasammy/Cybersecurity/blob/main/linux/labs/lab5-linux-automation/linux_audit.sh
 
-Project Structure
+---
+
+## Project Structure
+
+```
 lab5-linux-automation
 │
 ├── README.md
@@ -63,32 +99,25 @@ lab5-linux-automation
 │   └── threat_detection.sh
 │
 └── reports
+```
 
 Each module performs a specific auditing task and is executed by the main script.
 
-Make the Script Executable
+---
 
-Before running the tool, make the script executable.
-
-chmod +x linux_audit.sh
-Run the Tool
-
-Run a complete system audit:
-
-./linux_audit.sh --scan
-
-This command runs all available modules and generates security reports.
-
-Built-in Help Command
+## Built-in Help Command
 
 The tool includes a built-in help command that displays usage instructions and available scanning options.
 
 Run:
 
+```bash
 ./linux_audit.sh --help
+```
 
 Example output:
 
+```
 Linux Security Audit Framework
 
 Usage:
@@ -106,30 +135,86 @@ Options:
   --threats    Threat detection
   --verbose    Enable verbose output
   --help       Show help menu
-Running Individual Modules
+```
 
-The framework allows individual modules to be executed separately.
+---
 
-System Information
+## Running Individual Modules
+
+The framework allows individual modules to be executed independently.
+
+### System Information
+
+```bash
 ./linux_audit.sh --system
-User Enumeration
+```
+
+### User Enumeration
+
+```bash
 ./linux_audit.sh --users
-Process Analysis
+```
+
+### Process Analysis
+
+```bash
 ./linux_audit.sh --process
-Network Enumeration
+```
+
+### Network Enumeration
+
+```bash
 ./linux_audit.sh --network
-Connectivity Testing
+```
+
+### Connectivity Testing
+
+```bash
 ./linux_audit.sh --connect
-Security Checks
+```
+
+### Security Checks
+
+```bash
 ./linux_audit.sh --security
-Login Analysis
+```
+
+### Login Analysis
+
+```bash
 ./linux_audit.sh --logins
-Threat Detection
+```
+
+### Threat Detection
+
+```bash
 ./linux_audit.sh --threats
-Example Output
+```
+
+---
+
+## Modules
+
+The framework uses modular scanning components to perform different types of system analysis.
+
+| Module | Purpose |
+|------|------|
+| system_info.sh | Collect system information |
+| users_enum.sh | Enumerate system users |
+| process_enum.sh | Inspect running processes |
+| network_enum.sh | Analyze network configuration |
+| connectivity_tests.sh | Test internet connectivity |
+| security_checks.sh | Identify configuration weaknesses |
+| login_analysis.sh | Analyze login history |
+| threat_detection.sh | Detect suspicious activity |
+
+---
+
+## Example Tool Output
 
 When the tool starts, it displays metadata about the scan session.
 
+```
 ====================================================
 Linux Security Audit Framework
 Version: 1.0
@@ -137,69 +222,91 @@ Author: Sammy Wambua
 ====================================================
 
 Scan started: Tue Mar 18 10:22:41
+```
 
 Example scan results:
 
+```
 [INFO] Hostname → kali
 [INFO] Kernel Version → 6.6
 [OK] Internet connectivity → Reachable
 [WARNING] Writable PATH directory detected
-Reports
+```
 
-After the scan completes, reports are generated inside the reports directory.
+---
 
-Human-Readable Report
+## Reports
+
+After each scan completes, reports are automatically generated inside the **reports** directory.
+
+### Human-Readable Report
+
+```
 reports/audit_DATE.txt
+```
 
-This file contains a formatted summary of all scan results.
+This file contains a formatted summary of scan results.
 
-CSV Report
+### CSV Report
+
+```
 reports/audit_DATE.csv
+```
 
-The CSV report contains structured data that can be used for:
+The CSV report contains structured data suitable for:
 
-spreadsheet analysis
+- spreadsheet analysis
+- SIEM ingestion
+- automated parsing
 
-importing into monitoring tools
+---
 
-automated data analysis
-
-Security Summary
+## Security Summary
 
 At the end of each scan the framework calculates a system security score.
 
-Example:
+Example output:
 
+```
 SYSTEM SECURITY SUMMARY
 
 Warnings: 2
 Critical Findings: 1
 Security Score: 85 / 100
 Risk Level: MEDIUM
+```
 
-This provides a quick overview of the security posture of the system.
+This provides a quick overview of system security posture.
 
-Purpose of the Lab
+---
+
+## Purpose of the Lab
 
 This lab demonstrates how Bash scripting can be used to automate Linux administration and security auditing tasks.
 
 By combining concepts learned throughout multiple Linux topics such as:
 
-user and group management
-
-process monitoring
-
-networking
-
-permissions
-
-system inspection
+- user and group management
+- process monitoring
+- networking
+- permissions
+- system inspection
 
 the framework automates common administrative and security inspection tasks.
 
 The result is a modular auditing tool that simulates the behavior of professional Linux security auditing utilities.
 
-Conclusion
+---
+
+## Disclaimer
+
+This tool is intended for **educational purposes and authorized security auditing only**.
+
+Do not run this tool against systems without proper authorization.
+
+---
+
+## Conclusion
 
 The Linux Security Automation Framework demonstrates how Bash scripting can be used to build automated security auditing tools.
 
