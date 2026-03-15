@@ -1,16 +1,16 @@
 Timestamp,Module,Check,Result,Status
-2026-03-15 17:53:31,Security Check,/etc/passwd writable,No,OK
-2026-03-15 17:53:31,Login Analysis,Last login,command not available,INFO
-2026-03-15 17:53:31,Login Analysis,Failed login attempts,command not available,INFO
-2026-03-15 17:53:31,Users,Total system users,61,INFO
-2026-03-15 17:53:31,Network,Primary IP address,192.168.150.199,INFO
-2026-03-15 17:53:31,Network,Network interfaces,lo,eth0,INFO
-2026-03-15 17:53:31,Users,Sudo users,ace,INFO
-2026-03-15 17:53:31,Threat Detection,Writable PATH directory,/home/ace/.local/bin,WARNING
-2026-03-15 17:53:31,System Info,Hostname,Ace,INFO
-2026-03-15 17:53:31,System Info,Kernel Version,6.18.12+kali-amd64,INFO
-2026-03-15 17:53:31,System Info,Operating System,Kali GNU/Linux Rolling,INFO
-2026-03-15 17:53:31,Processes,Total running processes,260,INFO
-2026-03-15 17:53:31,Processes,Highest CPU process,ps,INFO
-2026-03-15 17:53:32,Connectivity,Internet connectivity,Reachable,OK
-2026-03-15 17:53:32,Security Check,SUID binaries count,33,INFO
+2026-03-15 18:50:29,System Info,Hostname,Ace,INFO
+2026-03-15 18:50:29,System Info,Kernel Version,6.18.12+kali-amd64,INFO
+2026-03-15 18:50:29,System Info,Operating System,Kali GNU/Linux Rolling,INFO
+2026-03-15 18:50:29,Users,Total system users,61,INFO
+2026-03-15 18:50:29,Users,Sudo users,ace,INFO
+2026-03-15 18:50:29,Processes,Total running processes,239,INFO
+2026-03-15 18:50:29,Processes,Highest CPU process,/bin/bash,INFO
+2026-03-15 18:50:29,Network,Primary IP address,192.168.150.199,INFO
+2026-03-15 18:50:29,Network,Network interfaces,lo,eth0,INFO
+2026-03-15 18:50:30,Connectivity,Internet connectivity,Reachable,OK
+2026-03-15 18:50:30,Security Check,/etc/passwd writable,No,OK
+2026-03-15 18:50:32,Security Check,SUID binaries count,33,INFO
+2026-03-15 18:50:32,Login Analysis,Last login,command not available,INFO
+2026-03-15 18:50:32,Login Analysis,Failed login attempts,command not available,INFO
+2026-03-15 18:50:32,Threat Detection,Writable PATH directory,/home/ace/.local/bin,WARNING

@@ -1,17 +1,17 @@
 MODULE               | CHECK                     | RESULT                                   | STATUS    
 ------               | -----                     | ------                                   | ------    
-Security Check       | /etc/passwd writable      | No                                       | OK        
-Login Analysis       | Last login                | command not available                    | INFO      
-Login Analysis       | Failed login attempts     | command not available                    | INFO      
-Users                | Total system users        | 61                                       | INFO      
-Network              | Primary IP address        | 192.168.150.199                          | INFO      
-Network              | Network interfaces        | lo,eth0                                  | INFO      
-Users                | Sudo users                | ace                                      | INFO      
-Threat Detection     | Writable PATH directory   | /home/ace/.local/bin                     | WARNING   
 System Info          | Hostname                  | Ace                                      | INFO      
 System Info          | Kernel Version            | 6.18.12+kali-amd64                       | INFO      
 System Info          | Operating System          | Kali GNU/Linux Rolling                   | INFO      
-Processes            | Total running processes   | 260                                      | INFO      
-Processes            | Highest CPU process       | ps                                       | INFO      
+Users                | Total system users        | 61                                       | INFO      
+Users                | Sudo users                | ace                                      | INFO      
+Processes            | Total running processes   | 239                                      | INFO      
+Processes            | Highest CPU process       | /bin/bash                                | INFO      
+Network              | Primary IP address        | 192.168.150.199                          | INFO      
+Network              | Network interfaces        | lo,eth0                                  | INFO      
 Connectivity         | Internet connectivity     | Reachable                                | OK        
+Security Check       | /etc/passwd writable      | No                                       | OK        
 Security Check       | SUID binaries count       | 33                                       | INFO      
+Login Analysis       | Last login                | command not available                    | INFO      
+Login Analysis       | Failed login attempts     | command not available                    | INFO      
+Threat Detection     | Writable PATH directory   | /home/ace/.local/bin                     | WARNING   
