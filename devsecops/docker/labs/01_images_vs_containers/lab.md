@@ -7,8 +7,6 @@ We create a working directory for the lab:
 mkdir docker-demo && cd docker-demo
 ```
 
-![Setup](screenshots/step1_setup.png)
-
 ### Explanation
 
 - Creates a new directory for the lab  
@@ -199,8 +197,6 @@ Start a new container:
 docker run -it my-python-app bash
 ls
 ```
-
-![Ephemeral Behavior](screenshots/step7_ephemeral.png)
 
 ### Explanation
 
